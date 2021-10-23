@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:navigator_2/pages/home_page.dart';
-import 'package:navigator_2/pages/other_page.dart';
+import 'package:navigator_2/introduction/pages/home_page.dart';
+import 'package:navigator_2/introduction/pages/other_page.dart';
 
 /// ChangeNotifier is the class which enable us to call notifyListeners() whenever the route changes. This is the equivalent of calling setState in a way.
 /// PopNavigatorRouterDelegateMixin is just a class which implements the method popRoute for you to handle back button press.
